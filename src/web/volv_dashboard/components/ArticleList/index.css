@@ -1,0 +1,28 @@
+td {
+    padding: 25px;;
+}
+
+.articleImage img {
+    border-radius: 10px;
+    width: 210px;
+}
+
+.articleHeading {
+    /* width: 200px; */
+    font-weight: bold;
+}
+
+.articleSummary {
+    width: auto;
+}
+
+.tableHead {
+    background-color: cornflowerblue;
+    height: 50px;
+    color: white;
+    font-weight: bold;
+}
+
+.tableRow:nth-child(even) {
+    background-color:whitesmoke
+}

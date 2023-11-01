@@ -1,0 +1,144 @@
+/* Style for the container */
+
+.formHolder {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  /* Style for form groups */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  /* Label styles */
+  .label {
+    font-weight: bold;
+  }
+  
+  /* Input and textarea styles */
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Select styles */
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+  }
+  
+  /* Checkbox and radio button styles */
+  input[type="checkbox"],
+  input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  /* Button styles */
+  button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 20px auto 0;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Additional styles can be added as needed */
+  
+  /* Center align the form on the page */
+  .article-form {
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .leftData{
+    width: 50%;
+    padding: 0 20px;
+  }
+  
+  /* Style for the form heading */
+  .form-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the form sections (e.g., News Type, Content Type, Republishable) */
+  .form-section {
+    margin-bottom: 10px;
+  }
+  
+
+  /* Hide the default radio button */
+input[type="radio"] {
+    display: none;
+  }
+  
+  /* Style the custom radio button container */
+  .radio-container {
+    display: inline-block;
+    position: relative;
+    padding-left: 35px; /* Adjust this to control the radio button's size */
+    margin-right: 15px; /* Add some spacing between radio buttons */
+    cursor: pointer;
+  }
+  
+  /* Style the custom radio button indicator */
+  .radio-container::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px; /* Adjust the size of the radio button indicator */
+    height: 20px; /* Adjust the size of the radio button indicator */
+    border: 2px solid #3498db; /* Border color for unchecked state */
+    border-radius: 50%; /* Make it circular */
+    background-color: white; /* Background color for unchecked state */
+  }
+  
+  /* Style the custom radio button indicator when checked */
+  .radio-container input[type="radio"]:checked + .radio-container::before {
+    border-color: #3498db; /* Border color for checked state */
+    background-color: #3498db; /* Background color for checked state */
+  }
+  
+  /* Style the label text for the radio button */
+  .radio-label {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  /* Add hover effect */
+  .radio-container:hover::before {
+    border-color: #2980b9; /* Adjust the border color for hover state */
+  }
+  
+  /* Add focus effect */
+  .radio-container input[type="radio"]:focus + .radio-container::before {
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.8); /* Adjust the box-shadow color and size */
+  }
+  
+  label {
+    padding-bottom: 5px;
+  }
