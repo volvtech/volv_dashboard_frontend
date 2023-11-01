@@ -1,0 +1,1 @@
+export const API_URL_VERSION_1 = 'v1';
