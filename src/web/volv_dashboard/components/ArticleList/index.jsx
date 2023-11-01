@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useDispatch } from 'react-redux';
 import axios from 'axios';
-import EditIcon from '@material-ui/icons/Edit';
+// import EditIcon from '@material-ui/icons/Edit';
 import DeleteIcon from '@mui/icons-material/Delete';
 import RemoveRedEyeIcon from '@mui/icons-material/RemoveRedEye';
 import { styled } from '@mui/material/styles';
@@ -376,7 +376,7 @@ const ArticleList = () => {
                 </td>
                 <td>
                   <button><RemoveRedEyeIcon/></button>
-                  <button><EditIcon></EditIcon></button>
+                  <button>Edit</button>
                   <button><DeleteIcon></DeleteIcon></button>
                 </td>
               </tr>
